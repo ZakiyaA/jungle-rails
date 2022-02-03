@@ -27,6 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+# money 
+# gem 'money-rails', '~>1.12'
+
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-rails'
