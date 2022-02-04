@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
-
+  resources :about, only: [:index]
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # root 'about#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
