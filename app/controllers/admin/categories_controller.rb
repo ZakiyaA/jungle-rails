@@ -2,7 +2,7 @@ class Admin::CategoriesController < ApplicationController
 
 
   def index
-    @category = Category.order(id: :desc).all
+    @categories = Category.order(id: :desc).all
   end
 
   def new
@@ -23,7 +23,7 @@ class Admin::CategoriesController < ApplicationController
 
   def category_params
     params.require(:category).permit(
-      :name,
+      :name
     )
   end
 
