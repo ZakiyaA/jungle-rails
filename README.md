@@ -2,6 +2,17 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+# Project Feature
+- Admin users can list and create new categories
+- Admins can add new products using the new category
+
+- User can go to the registration page from any page in order to create an account
+- User can sign up for a user account with my e-mail, password, first name and last name
+- User can sign in using my e-mail and password
+- User can log out from any page
+- User cannot sign up with an existing e-mail address (uniqueness validation)
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
