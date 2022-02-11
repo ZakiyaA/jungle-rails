@@ -12,6 +12,24 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 - User can log out from any page
 - User cannot sign up with an existing e-mail address (uniqueness validation)
 
+## Home Page:
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/hamePage.png
+
+## DashBoard
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/DashBoard.png
+
+## Categories
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/Categories.png
+
+## Sold Out
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/SoldOut.png
+
+## My Cart
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/myCart.png
+
+## My Order
+https://github.com/ZakiyaA/jungle-rails/blob/master/docs/myOrder.png
+
 
 ## Additional Steps for Apple M1 Machines
 
